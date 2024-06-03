@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python_storybook"
+version = "0.1.0"
+description = "Python-Storybook integration"
+readme = "README.md"
+authors = [
+  { name="Sisung Kim", email="sisung.kim1@gmail.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pydantic",
+
+]
+requires-python = ">=3.9"
+
+[project.urls]
+"Homepage" = "https://github.com/crimson206/python-storybooks"
+"Bug Tracker" = "https://github.com/crimson206/python-storybooks/issues"
